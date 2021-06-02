@@ -1,0 +1,65 @@
+// Place all the styles related to the Flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.flats {
+  list-style: none;
+
+}
+
+.flats li{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 30%;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.flats .title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.flats .flat-data{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.flats .flat-data > span{
+  margin-right: 10px;
+}
+
+.flats a{
+  margin-right: 10px;
+  text-decoration: none;
+  color: red;
+}
+
+.flats a:hover{
+  background-color: transparent;
+  color: rgb(80, 7, 7);
+}
+
+.flats .more-info-style{
+  color: rgb(0, 153, 255);
+}
+
+.flats .more-info-style:hover{
+  color: rgb(0, 110, 255);
+}
+
+.flats .edit-style {
+  color: rgb(255, 187, 0);
+}
+
+.flats .edit-style:hover{
+  color: rgb(255, 145, 0);
+}
+
+.flats .flat-options{
+  display: flex;
+  justify-content: flex-start;
+}
+
